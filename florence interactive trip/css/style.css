@@ -1,9 +1,12 @@
 body{
-	/*background:black;*/
+	background:black;
+	margin: 0px;
 }
 
 #noir{
-	height:100px;
-	width:100px;
+	position:absolute;
+	top:0px;
+	height:958px;
+	width:960px;
 	background:black;
 }

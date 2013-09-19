@@ -7,7 +7,7 @@ setInterval(function() {
 	var sec=date.getSeconds();
 	$('h1.hour').html(date);
 	//var opacite = -0.0166666*sec+1; test seconde
-	sec=13;
+
 	if (sec >= 12) {
 		opacite = (-1/12)*sec+2;
 	}else{
