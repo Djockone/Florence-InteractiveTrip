@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Rationale);
+
+body{
+	background:black;
+	margin: 0px;
+}
+
+#noir{
+	position:absolute;
+	top:12px;
+	height:1080px;
+	width:960px;
+	background:black;
+}
+
+#corps{
+	position:relative;
+	margin:0px auto;
+	width:960px;
+}
+
+.carte{
+	display:block;
+	position:absolute;
+	top:47px;
+
+}
+.horloge{
+	position:absolute;
+	z-index:7;
+	top: 12px;
+	left:30px;
+}
+.horloge h1{
+	font-size: 32px;
+	color:#10fb10;
+
+	font-family: 'Rationale', sans-serif;
+}
+
+
+#logo{
+	top: 12px;
+	position: relative;
+	right: -20px;
+	z-index:2;
+	float:right;
+}
+
+h1.op{
+	color: #f4f4f4;
+}
+
+
+
+/**
+* Beuverie
+**/
+.negroni{
+	position:absolute;
+	top:441px;
+	left:480px;
+}
+.harrybar{
+	position:absolute;
+	left:555px;
+	top:378px;
+}
+.giubbe{
+	position:absolute;
+	left:624px;
+	top:432px;
+}
+.minerva{
+	position:absolute;
+	left:585px;
+	top:472px;
+}
+.dolcevita{
+	position:absolute;
+	left:767px;
+	top:431px;
+}
+.pin {
+	display:none;
+	z-index:4;
+}
+
+/**
+* Restaurants
+**/
+.prosciutteria{
+	position:absolute;
+	left:393px;
+	top:407px;	
+}
+.vini{
+	position:absolute;
+	left:321px;
+	top:520px;	
+}
+
+.santa{
+	position:absolute;
+	left:683px;
+	top:555px;	
+}
+
+.lorenzo{
+	position:absolute;
+	left:682px;
+	top:296px;	
+}
+.Vinattieri{
+	position:absolute;
+	left:336px;
+	top:208px;	
+}
+
+/**
+* Auberge
+**/
+.auberge{
+	display: block;
+	position:absolute;
+	left:721px;
+	top:380px;	
+}
+
