@@ -15,7 +15,7 @@ setInterval(function() {
 		if (m<10) {m = "0" + m}
 
 		if (s<10) {s = "0" + s}
-	 h=19;
+	 //h=19;
 	//$('h1.hour').html("date");
 	$('h1.hour').html(h+":"+m+":"+s );
 	//var opacite = -0.0166666*sec+1; 

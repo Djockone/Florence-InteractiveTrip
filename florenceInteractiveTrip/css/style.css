@@ -1,3 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Rationale);
+
 body{
-	/*background:black;*/
+	background:black;
+	margin: 0px;
+}
+
+#noir{
+	position:absolute;
+	top:0px;
+	height:958px;
+	width:960px;
+	background:black;
+}
+
+#corps{
+	margin:0px auto;
+	width:960px;
+}
+
+.horloge{
+	position:absolute;
+	top: 12px;
+	left:30px;
+}
+.horloge h1{
+	font-size: 18px;
+	color:#f4f4f4;
+	font-family: 'Rationale', sans-serif;
 }
